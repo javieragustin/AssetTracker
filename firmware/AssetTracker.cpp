@@ -36,6 +36,14 @@ float AssetTracker::speed(void){
 	return gps.speed;
 }
 
+uint8_t AssetTracker::fixquality(void){
+	return gps.fixquality;
+}
+
+uint8_t AssetTracker::satellites(void){
+	return gps.satellites;
+}
+
 float AssetTracker::readLon(){
     return gps.longitude;
 }
