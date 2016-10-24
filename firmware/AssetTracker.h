@@ -21,6 +21,8 @@ class AssetTracker {
     readZ(void),
     readXYZmagnitude(void);
   float
+    angle(void);
+    speed(void);
     readLat(void),
     readLon(void);
   bool
