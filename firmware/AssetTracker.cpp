@@ -28,6 +28,13 @@ void AssetTracker::begin(){
 float AssetTracker::readLat(){
     return gps.latitude;
 }
+float AssetTracker::angle(void){
+	return gps.angle;
+}
+
+float AssetTracker::speed(void){
+	return gps.speed;
+}
 
 float AssetTracker::readLon(){
     return gps.longitude;
