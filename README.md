@@ -6,4 +6,4 @@ _The Asset Tracker has a lot of features, but some of these aren't as straightfo
 2. __Accelerometer__ - Using the accelerometer with some cute tricks
 3. __WakeOnMove__ - Waking up from sleep mode when the Electron is moved
 
-Added speed, angle and satelites returns;
+Added speed, angle,fixquality and satelites returns;
