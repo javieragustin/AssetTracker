@@ -36,11 +36,11 @@ float AssetTracker::speed(void){
 	return gps.speed;
 }
 
-uint8_t AssetTracker::fixquality(void){
+int AssetTracker::fixquality(void){
 	return gps.fixquality;
 }
 
-uint8_t AssetTracker::satellites(void){
+int AssetTracker::satellites(void){
 	return gps.satellites;
 }
 
