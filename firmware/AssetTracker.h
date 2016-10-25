@@ -21,11 +21,11 @@ class AssetTracker {
     readZ(void),
     readXYZmagnitude(void);
   uint8_t
-   fixquality(void);
+   fixquality(void),
    satellites(void);
   float
-    angle(void);
-    speed(void);
+    angle(void),
+    speed(void),
     readLat(void),
     readLon(void);
   bool
