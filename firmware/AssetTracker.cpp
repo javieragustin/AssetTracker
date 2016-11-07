@@ -91,8 +91,9 @@ bool AssetTracker::gpsFix(){
 // }
 
 void AssetTracker::updateGPS(){
-    char c = gps.read();
+    //char c = gps.read();
       // if a sentence is received, we can check the checksum, parse it...
+  gps.read();
   if (gps.newNMEAreceived()) {
     // a tricky thing here is if we print the NMEA sentence, or data
     // we end up not listening and catching other sentences! 
